@@ -17,12 +17,26 @@ To understand the problem and explore existing solutions in the industry.
   * Google Forms (manual quiz system)
   * ChatGPT (general Q&A)
   * Kahoot (interactive quizzes)
+  * QuillBot
+  * LongChain
 
 ### 🔍 Analysis
+## Limitations of Existing Systems
 
-* Existing systems rely on manually created questions
-* No system dynamically generates questions from documents
-* No automated evaluation for descriptive answers
+1. ChatGPT
+   - No structured quiz system
+   - No automatic scoring mechanism
+   - No tracking of user performance
+
+2. Kahoot / Google Forms
+   - Cannot generate questions automatically
+   - Cannot evaluate descriptive answers
+   - Limited to objective (MCQ) evaluation
+
+3. LangChain
+   - Provides building blocks only
+   - No ready-to-use quiz system
+   - Requires manual pipeline design
 
 ### ❌ Failed Attempt
 
@@ -37,12 +51,21 @@ To understand the problem and explore existing solutions in the industry.
 * Understanding the problem deeply is essential before implementation
 * LLM performance depends on structured input
 
+### Improvement Over Existing Systems
+
+- Supports descriptive answer evaluation
+- Fully automated pipeline
+- Uses semantic understanding instead of keyword matching
+- Works on open-source LLMs (Ollama)
 ---
 
 ## 📆 DAY 2: PDF Text Extraction Module
 
 ### 🎯 Objective
-
+UI → Streamlit
+LLM → Ollama
+PDF → pdfplumber
+Data → pandas
 To extract meaningful text from user-uploaded documents.
 
 ### ✅ Work Done
@@ -57,12 +80,15 @@ To extract meaningful text from user-uploaded documents.
 
 ### ❌ Failed Attempt
 
-* Passing full document to LLM → increased latency and poor output
+* pdfplumber is not that good to extract and read the pdf contents
+* it failed for some pdf like marksheets
+* it is scraping the wrong rows and columns
+
 
 ### 🔧 Solution
 
-* Limited extracted text to 1500–2000 characters
-* Focused on relevant sections
+* I Used the PyMuPDF
+* Which is most accuretely reading all the data from the given pdf
 
 ### 💡 Learning
 
