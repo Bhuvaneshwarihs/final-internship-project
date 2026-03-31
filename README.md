@@ -105,11 +105,16 @@ To generate meaningful questions from extracted content.
 ### ✅ Work Done
 
 * Built question generation module using Ollama (phi3 model)
+* The phi3 model is the fast but not accurate one
 * Added support for:
 
   * Topic-based questions
   * Difficulty level
-
+  
+* Then I move to the Mistral Model
+* which is the best ollama model 
+* But Mistral is Slow
+  
 ### 🔍 Analysis
 
 * LLM sometimes ignored instructions
@@ -118,18 +123,20 @@ To generate meaningful questions from extracted content.
 ### ❌ Failed Attempt
 
 * Requested 15 questions → only 5 generated
+* When I worked with mistral it is generating the questions like Wow But it is taking 3-4 min for question generation
 
 ### 🔧 Solution
 
 * Improved prompt:
-
-  * "Generate EXACTLY N questions"
-* Implemented batching strategy
-
+- Like, You must generate the Clear , Clarity and Correct Questions 
+- Implemented batching strategy(Where it Covert the full pdf into the smaller chunks )
+- Then generatingf the questions
+ 
 ### 💡 Learning
 
 * Prompt engineering plays a critical role in LLM-based systems
 * Clear instructions improve output quality
+* Sometimes LLM Hallucinates
 
 ---
 
@@ -143,6 +150,8 @@ To evaluate user answers intelligently using LLM.
 
 * Developed evaluation module
 * Compared student answers with extracted context
+* The module 1st I used the mistral Which is slowly working taking 3 min time per question
+* So I moved to the mistral:instruct which is fast than the mistral
 * Generated:
 
   * Score
@@ -160,6 +169,7 @@ To evaluate user answers intelligently using LLM.
 
 * Implemented batch evaluation
 * Reduced number of LLM calls
+* Then evalution becomes faster for all questions now it is taking 5 - 6 min  
 
 ### 💡 Learning
 
@@ -187,10 +197,15 @@ To integrate all modules and improve system performance.
 ### 🔍 Analysis
 
 * Initial system performance was slow
+* So next i moved to the llama3.2:3b
+* Which is taking the less than 1 min for question generation
+* And also 3 to 4 min for the evaluation
 
 ### ❌ Failed Attempt
 
 * Large input + multiple API calls → high latency
+* also sometimes it hallucinates and not completely give feedback like why answer is wrong and why it is correct
+* Sometimes if i give the wrong answer it will predict it as wrong
 
 ### 🔧 Solution
 
@@ -210,13 +225,8 @@ To integrate all modules and improve system performance.
 * Built a complete quiz application
 * Supports document-based question generation
 * Evaluates descriptive answers using LLM
-* Provides feedback and scoring
+* Provides feedback and scoring 
 * Improved performance significantly
-
----
-
-## 🚀 Future Improvements
-
 * Add UI (Streamlit / Web app)
 * Support multiple document formats
 * Improve evaluation accuracy using fine-tuned models
