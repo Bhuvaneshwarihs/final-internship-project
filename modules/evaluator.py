@@ -43,7 +43,7 @@ For EACH question:
 ========================
 - EMPTY → 0
 - Completely wrong → 0–2
-- Partially correct → 3–6
+- Partially correct → 5–6
 - Mostly correct → 7–9
 - Fully correct → 10
 
