@@ -69,9 +69,11 @@ Data → pandas
 To extract meaningful text from user-uploaded documents.
 
 ### ✅ Work Done
-
+* Created the Some files like test_evaluator.py, test_ollma.py,test_pdf.py,test_questions.py
+* By Using sample Pdf i test the working of the ollama is correct or not
 * Implemented PDF extraction using Python
 * Successfully extracted raw text from PDF files
+
 
 ### 🔍 Analysis
 
