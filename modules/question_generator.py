@@ -117,7 +117,7 @@ CONTENT:
                 "model": "llama3.2:3b",
                 "options": {
                     "temperature": 0.1,
-                    "num_predict": 350
+                    "num_predict": 500
                 },
                 "prompt": prompt,
                 "stream": False
