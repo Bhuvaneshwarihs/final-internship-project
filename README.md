@@ -130,7 +130,7 @@ To generate meaningful questions from extracted content.
 * Improved prompt:
 - Like, You must generate the Clear , Clarity and Correct Questions 
 - Implemented batching strategy(Where it Covert the full pdf into the smaller chunks )
-- Then generatingf the questions
+- Then generating the questions
  
 ### 💡 Learning
 
@@ -230,5 +230,5 @@ To integrate all modules and improve system performance.
 * Add UI (Streamlit / Web app)
 * Support multiple document formats
 * Improve evaluation accuracy using fine-tuned models
-
+* And It the Output also Downloadble like CSV file and PDF
 ---
