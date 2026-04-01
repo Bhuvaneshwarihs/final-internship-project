@@ -249,6 +249,7 @@ To integrate all modules and improve system performance.
 <img src="images/dashboard.png" width="700">
 </div>
 
+---
 
 👉 **More Screenshots:**  
 [View all images](images/)
