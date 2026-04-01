@@ -221,14 +221,13 @@ To integrate all modules and improve system performance.
 * Efficient system design is required for scalability
 
 ---
-
 ## 📸 Project Preview
 
 <div align="center">
 
-<img src="images/home.png" width="250" />
-<img src="images/quiz1.png" width="250" />
-<img src="images/quiz2.png" width="250" />
+<img src="images/home.png" style="width:250px; height:150px; object-fit:cover;" />
+<img src="images/quiz1.png" style="width:250px; height:150px; object-fit:cover;" />
+<img src="images/quiz2.png" style="width:250px; height:150px; object-fit:cover;" />
 
 </div>
 
@@ -236,9 +235,9 @@ To integrate all modules and improve system performance.
 
 <div align="center">
 
-<img src="images/submit.png" width="250" />
-<img src="images/result1.png" width="250" />
-<img src="images/result2.png" width="250" />
+<img src="images/submit.png" style="width:250px; height:150px; object-fit:cover;" />
+<img src="images/result1.png" style="width:250px; height:150px; object-fit:cover;" />
+<img src="images/result2.png" style="width:250px; height:150px; object-fit:cover;" />
 
 </div>
 
@@ -250,7 +249,7 @@ To integrate all modules and improve system performance.
 ---
 
 👉 **More Screenshots:**  
-[Click here to view all images](images/)
+[View all images](images/)
 
 ---
 
