@@ -244,9 +244,11 @@ To integrate all modules and improve system performance.
 <br>
 
 ### 📊 Final Results Dashboard
-<img src="images/dashboard.png" width="700">
 
----
+<div align="center">
+<img src="images/dashboard.png" width="700">
+</div>
+
 
 👉 **More Screenshots:**  
 [View all images](images/)
