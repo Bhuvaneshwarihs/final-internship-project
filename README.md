@@ -222,6 +222,43 @@ To integrate all modules and improve system performance.
 
 ---
 
+## 📸 Project Preview   
+
+<div align="center">
+
+<img src="images/home.png" width="30%" />
+<img src="images/quiz1.png" width="30%" />
+<img src="images/quiz2.png" width="30%" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="images/submit.png" width="30%" />
+<img src="images/result1.png" width="30%" />
+<img src="images/result2.png" width="30%" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="images/result3.png" width="30%" />
+<img src="images/result4.png" width="30%" />
+<img src="images/result5.png" width="30%" />
+
+</div>
+
+<br>
+
+### 📊 Final Results Dashboard
+<img src="images/dashboard.png" width="90%">
+
+---
+
 ## 📊 Final Outcome
 
 * Built a complete quiz application
